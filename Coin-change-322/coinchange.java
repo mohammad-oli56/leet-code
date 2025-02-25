@@ -1,6 +1,8 @@
 
 import java.util.Arrays;
 
+// for leet code start from here 👇
+
 public class coinchange {
 
     public static int coinChange(int[] coins, int amount) {
@@ -24,6 +26,8 @@ public class coinchange {
         
         return minCoins[amount] == Integer.MAX_VALUE ? -1 : minCoins[amount];
     }
+
+    // and end here
 
     public static void main(String[] args) {
         int[] coins = {1, 6, 5};
